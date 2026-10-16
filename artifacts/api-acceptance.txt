@@ -1,0 +1,16 @@
+PASS 登录、未授权拦截与错误密码
+PASS 金额边界、类型与整数倍校验
+PASS 20 个并发相同请求只创建一个订单与一次扣款
+PASS 明确失败后解冻
+PASS 超时期间保持冻结，未提前回滚
+PASS 30 秒后查询收敛：成功扣减、失败解冻、7 天有效期
+PASS unavailable 保持冻结，恢复服务后原订单成功
+PASS http_error 保持冻结，恢复服务后原订单成功
+PASS malformed 保持冻结，恢复服务后原订单成功
+PASS 单次上限成功与余额不足拒绝
+PASS 北京时间每日最多 10 次，失败订单计入次数
+PASS 历史日期订单不占当日限额
+PASS 过期红包不计入可用红包余额
+PASS 账户守恒及逐单流水一致性
+PASS 退出后会话失效
+ALL ACCEPTANCE CHECKS PASSED; account: qa_fb2c87e8

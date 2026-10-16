@@ -1,0 +1,9 @@
+test_concurrent_failure_releases_once (test_transactions.Transactions.test_concurrent_failure_releases_once) ... ok
+test_concurrent_success_settles_once (test_transactions.Transactions.test_concurrent_success_settles_once) ... ok
+test_db_constraints (test_transactions.Transactions.test_db_constraints) ... ok
+test_unknown_never_releases (test_transactions.Transactions.test_unknown_never_releases) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.210s
+
+OK

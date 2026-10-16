@@ -1,0 +1,2 @@
+PASS 20 concurrent distinct requests cannot overspend 500 coins; cross-user recovery denied
+PASS 20 concurrent distinct requests cannot exceed daily quota 10

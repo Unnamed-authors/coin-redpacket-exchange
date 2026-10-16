@@ -1,0 +1,14 @@
+
+> coin-wallet@1.0.0 build
+> vite build
+
+vite v6.4.4 building for production...
+transforming...
+✓ 26 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.38 kB │ gzip:  0.31 kB
+dist/assets/index-DEDAqAqp.css   13.33 kB │ gzip:  3.81 kB
+dist/assets/index-C5VGnK9L.js   220.54 kB │ gzip: 69.03 kB
+✓ built in 455ms
+found 0 vulnerabilities

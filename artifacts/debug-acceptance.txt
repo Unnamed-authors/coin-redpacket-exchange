@@ -1,0 +1,6 @@
+PASS Debug account API and editable request/response
+PASS Debug business failure, unfreeze ledger and idempotent replay
+PASS Debug connection refusal, pending visibility and recovery
+PASS isolated downstream success, failure, HTTP 503, malformed receipt and connection refusal
+PASS real 30-second timeout, same-id query converges; isolated downstream never changes account/quota
+PASS Debug ledger, invalid JSON, request history, close entry and zero JS errors

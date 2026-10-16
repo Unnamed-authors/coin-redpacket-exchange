@@ -1,0 +1,1 @@
+PASS redpacket list: active/expired/all, amount and IDs, failed exclusion, anchor, automatic refresh, empty state and cross-user isolation; zero JS errors

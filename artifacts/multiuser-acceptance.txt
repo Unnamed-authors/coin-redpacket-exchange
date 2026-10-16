@@ -1,0 +1,3 @@
+PASS admin creation/validation/permissions, account/order/ledger/quota/idempotency isolation, disable invalidates sessions
+PASS disabled account pending settlement, re-enable, password reset revocation and non-secret audit
+ALL MULTIUSER CHECKS PASSED
